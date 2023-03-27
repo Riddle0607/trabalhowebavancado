@@ -13,7 +13,7 @@ const filmes = [
   },
   {
     nome: "John Wick",
-    duracao: "2H30",
+    duracao: "1H30",
     foto: "filme2.jpg",
     assistido: true,
     ano: 2014,
@@ -22,13 +22,13 @@ const filmes = [
     nota: 5,
   },
   {
-    nome: "Vingadores",
-    duracao: "2H30",
-    foto: "vingadores.png",
+    nome: "Titanic",
+    duracao: "1H20",
+    foto: "filme3.webp",
     assistido: false,
-    ano: 2015,
-    genero: "Ação/Nerd",
-    descricao: "Filme da Marvel com super-heróis",
+    ano: 2000,
+    genero: "Drama",
+    descricao: "Barco naufragando e tristeza",
     nota: 5,
   },
 ];

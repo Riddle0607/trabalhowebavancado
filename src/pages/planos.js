@@ -2,11 +2,12 @@ import React from 'react';
 import Title from './../components/Title/index'
 import Filme from './../components/Filme/index'
 
+ 
 
 function Planos() {
     return (
         <div>
-            <Title title='Planos' text='Planos do site' />
+            <Title title='Planos do site' text='' />
             <div className="container text-center">
                 <div className="row flex-row">
                     <div className="col-md-4">
@@ -18,7 +19,7 @@ function Planos() {
                                 <p>100 Reais</p>
                                 <p>Plano muito legal de 100 reais</p>
                                 <p className="card-text"></p>
-                                <div className="btn btn-primary alert alert-success" role="alert">Detalhes</div>
+                                <div className="btn btn-primary alert alert-success" role="alert">Comprar</div>
                             </div>
                         </div>
                     </div>
@@ -31,7 +32,7 @@ function Planos() {
                                 <p>200 reais</p>
                                 <p>Plano muito legal de 200 reais</p>
                                 <p className="card-text"></p>
-                                <div className="btn btn-primary alert alert-success" role="alert ">Detalhes</div>
+                                <div className="btn btn-primary alert alert-success" role="alert ">Comprar</div>
                             </div>
                         </div>
                     </div>
@@ -44,7 +45,7 @@ function Planos() {
                                 <p>300 reais</p>
                                 <p>Plano muito legal de 300 reais</p>
                                 <p className="card-text"></p>
-                                <div className="btn btn-primary alert alert-success" role="alert">Detalhes</div>
+                                <div className="btn btn-primary alert alert-success" role="alert">Comprar</div>
                             </div>
                         </div>
                     </div>

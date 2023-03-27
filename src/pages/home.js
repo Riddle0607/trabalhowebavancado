@@ -5,7 +5,7 @@ import Title from './../components/Title/index'
 function Home() {
     return (
         <>
-        <Title title='Catalogo de filmes' text='Filmes disponiveis'/>
+        <Title title='Catalogo de filmes' text=''/>
         <Filme />
         </>
     )
