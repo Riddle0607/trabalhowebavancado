@@ -1,18 +1,18 @@
 const cards = [
     {
-        plano: "Plano A",
-        custo: "100 reais",
-        descricao: "Plano muito legal de 100 reias",
+        plano: "Plano X",
+        custo: "40 reais",
+        descricao: "Custo beneficio",
     },
     {
-        plano: "Plano B",
-        custo: "200 reais",
-        descricao: "Plano muito legal de 200 reias",
+        plano: "Plano y",
+        custo: "120 reais",
+        descricao: "Custo nao tao beneficio",
     },
     {
-        plano: "Plano C",
-        custo: "300 reais",
-        descricao: "Plano muito legal de 300 reias",
+        plano: "Plano z",
+        custo: "500 reais",
+        descricao: "Nada Beneficio",
     },
 ];
 
@@ -28,10 +28,10 @@ function Card() {
                                 <h5 className="card-title">
                                 </h5>
                                 <p>{cards.plano}</p>
-                                <p>{cards.dinheiro}</p>
+                                <p>{cards.custo}</p>
                                 <p>{cards.descricao}</p>
                                 <p className="card-text"></p>
-                                <div className="btn btn-primary alert alert-success" role="alert">Comprar</div>
+                                <div className="btn btn-primary" role="alert">Comprar</div>
                             </div>
                         </div>
                     </div>

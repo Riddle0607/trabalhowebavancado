@@ -2,34 +2,34 @@ import "./Filme.css";
 
 const filmes = [
   {
-    nome: "It",
-    duracao: "2H30",
+    nome: "Massacre da Serra Eletrica",
+    duracao: "1H30",
     foto: "filme1.jpg",
     assistido: true,
-    ano: 2018,
+    ano: 1998,
     genero: "Terror",
-    descricao: "Palhaco assasino",
+    descricao: "Assassino com Serra Eletrica",
+    nota: 5,
+  },
+  {
+    nome: "Sexta Feira 13",
+    duracao: "1H45",
+    foto: "filme2.jpg",
+    assistido: true,
+    ano: 1999,
+    genero: "Terror",
+    descricao: "Filme terror com um Assassino com um facao",
     nota: 10,
   },
   {
-    nome: "John Wick",
-    duracao: "1H30",
-    foto: "filme2.jpg",
-    assistido: true,
-    ano: 2014,
-    genero: "Ação/Nerd",
-    descricao: "Filme da Marvel com super-heróis",
-    nota: 5,
-  },
-  {
-    nome: "Titanic",
-    duracao: "1H20",
+    nome: "Hora do Pesadelo",
+    duracao: "2h00",
     foto: "filme3.webp",
     assistido: false,
-    ano: 2000,
-    genero: "Drama",
-    descricao: "Barco naufragando e tristeza",
-    nota: 5,
+    ano: 1980,
+    genero: "Terror",
+    descricao: "Assassino que te mata nos sonhos",
+    nota: 6,
   },
 ];
 
@@ -58,10 +58,10 @@ export default function Filme() {
                   {filme.nome} ({filme.ano}){" "}
                 </h5>
                 <p>Sinopse</p>
-                <p className="card-text">{filme.descricao}</p>
-                <p>{filme.duracao}</p>
-                <p>{filme.genero}</p>
-                <p>{filme.nota}</p>
+                <p className="card-text">Descricao: {filme.descricao}</p>
+                <p>Duracao: {filme.duracao}</p>
+                <p>Genero: {filme.genero}</p>
+                <p>Nota: {filme.nota}</p>
                 <Assistido javisto = {filme.assistido} />
                 <a href={`/detalhes/${filme.nome}`}>
                   <div className="btn btn-primary">Detalhes</div>

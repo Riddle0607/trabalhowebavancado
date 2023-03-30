@@ -4,29 +4,29 @@ import { useParams } from 'react-router-dom';
 import Title from './../components/Title/index'
 
 const filmes = [{
-    "nome": "It a coisa",
+    "nome": "Massacre da Serra Eletrica",
     "genero": "Terror",
-    "descricao": "Palhaco assassino",
+    "descricao": "Assassino com Serra Eletrica",
     "foto": "filme1.jpg",
-    "duracao": "2h30",
+    "duracao": "1H30",
     "assistido": "Sim",
-    "nota": 10
+    "nota": 5
 },
 {
-    "nome": "John Wick",
-    "genero": "Ação",
-    "descricao": "Filme de acao",
+    "nome": "Sexta Feira 13",
+    "genero": "Terror",
+    "descricao": "Filme de Terror com um Assassino com um facao",
     "foto": "filme2.jpg",
-    "duracao": "1h30",
+    "duracao": "1h45",
     "assistido": "Sim",
     "nota": 10
 },
 {
-    "nome": "Titanic",
-    "genero": "Drama",
-    "descricao": "Barco naufragando e tristeza",
+    "nome": "Hora do Pesadelo",
+    "genero": "Terror",
+    "descricao": "Assassino que mata nos sonhos",
     "foto": "filme3.webp",
-    "duracao": "1h20",
+    "duracao": "2H00",
     "assistido": "Nao",
     "nota": 7
 }]
